@@ -2,7 +2,7 @@ function verificaValorValido(chute){
     const numero = +chute;
 
     if(chuteForInvalido(numero)){
-        if (chute.toUpperCase() === "GAME OVER.") {
+        if (chute.toUpperCase() === "GAME OVER") {
 
             document.body.innerHTML =
                 `
